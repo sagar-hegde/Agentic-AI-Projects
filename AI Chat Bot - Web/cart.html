@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Your Cart</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      background: #EAEDED;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 40px auto;
+      display: flex;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+
+    .cart-items {
+      flex: 2;
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+    }
+
+    .cart-item {
+      display: flex;
+      gap: 20px;
+      border-bottom: 1px solid #ddd;
+      padding: 15px 0;
+      align-items: center;
+    }
+
+    .cart-item img {
+      width: 100px;
+      height: 100px;
+      object-fit: contain;
+    }
+
+    .item-info {
+      flex: 1;
+    }
+
+    .price {
+      font-weight: bold;
+      color: #B12704;
+    }
+
+    .remove-btn {
+      background: red;
+      color: white;
+      border: none;
+      padding: 5px 10px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .summary {
+      flex: 1;
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      height: fit-content;
+    }
+
+    .summary h2 {
+      margin-top: 0;
+    }
+
+    .checkout-btn {
+      background: #FFD814;
+      border: none;
+      padding: 10px;
+      width: 100%;
+      margin-top: 10px;
+      cursor: pointer;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+
+    .back-link {
+      display: block;
+      margin-bottom: 20px;
+      text-decoration: none;
+      color: #007185;
+    }
+
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+  <div class="cart-items">
+    <a href="index.html" class="back-link">⬅ Continue Shopping</a>
+    <h1>Shopping Cart</h1>
+    <div id="cartItems"></div>
+  </div>
+
+  <div class="summary">
+    <h2>Order Summary</h2>
+    <p id="total"></p>
+    <button class="checkout-btn" onclick="checkout()">Proceed to Checkout</button>
+  </div>
+
+</div>
+
+<script>
+const API = "https://fakestoreapi.com/products";
+
+async function fetchProducts() {
+  const res = await fetch(API);
+  return await res.json();
+}
+
+function removeItem(index) {
+  let cart = JSON.parse(localStorage.getItem("ecom")) || [];
+  cart.splice(index, 1);
+  localStorage.setItem("ecom", JSON.stringify(cart));
+  loadCart();
+}
+
+async function loadCart() {
+  const cart = JSON.parse(localStorage.getItem("ecom")) || [];
+  const products = await fetchProducts();
+
+  const container = document.getElementById("cartItems");
+  container.innerHTML = "";
+
+  let total = 0;
+
+  cart.forEach((item, index) => {
+    const p = products.find(prod => prod.id == item.id);
+    if (!p) return;
+
+    total += p.price * item.quantity;
+
+    container.innerHTML += `
+      <div class="cart-item">
+        <img src="${p.image}">
+        <div class="item-info">
+          <h4>${p.title}</h4>
+          <div class="price">$${p.price} x ${item.quantity}</div>
+          <button class="remove-btn" onclick="removeItem(${index})">
+            Remove
+          </button>
+        </div>
+      </div>
+    `;
+  });
+
+  const totalItems = cart.reduce((sum, i) => sum + i.quantity, 0);
+
+  document.getElementById("total").innerText =
+    "Subtotal (" + totalItems + " items): $" + total.toFixed(2);
+}
+
+loadCart();
+
+function checkout() {
+    let cart = JSON.parse(localStorage.getItem("ecom")) || [];
+    if (cart.length === 0) {
+        alert("Cart is empty");
+        return;
+    }
+    alert("Order placed successfully! 🎉");
+    cart = [];
+    localStorage.setItem("ecom", JSON.stringify(cart));
+    loadCart();
+}
+</script>
+
+  <!-- AI Shopping Assistant (Gemini powered) -->
+  <script src="chatbot.js"></script>
+
+</body>
+</html>

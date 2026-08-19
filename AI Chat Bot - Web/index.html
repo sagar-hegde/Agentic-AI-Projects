@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Online Market</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      background: #EAEDED;
+    }
+
+    /* ===== NAVBAR ===== */
+    .navbar {
+      background: #131921;
+      color: white;
+      display: flex;
+      align-items: center;
+      padding: 10px 20px;
+      gap: 20px;
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .search-bar {
+      flex: 1;
+      display: flex;
+    }
+
+    .search-bar input {
+      flex: 1;
+      padding: 8px;
+      border: none;
+      outline: none;
+      border-top-left-radius: 15px;
+      border-bottom-left-radius: 15px;
+    }
+
+    .search-bar button {
+      background: #febd69;
+      border: none;
+      padding: 8px 15px;
+      cursor: pointer;
+      border-top-right-radius: 15px;
+      border-bottom-right-radius: 15px;
+    }
+
+    .cart {
+      position: relative;
+      cursor: pointer;
+    }
+
+    .cart-badge {
+      position: absolute;
+      top: -5px;
+      right: -10px;
+      background: red;
+      border-radius: 50%;
+      padding: 3px 7px;
+      font-size: 12px;
+    }
+
+    /* ===== PRODUCTS ===== */
+    .container {
+      padding: 20px;
+    }
+
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 15px;
+      border-radius: 8px;
+      transition: 0.3s;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .card img {
+      height: 180px;
+      object-fit: contain;
+      margin-bottom: 10px;
+    }
+
+    .title {
+      font-size: 14px;
+      height: 40px;
+      overflow: hidden;
+    }
+
+    .price {
+      font-weight: bold;
+      margin: 8px 0;
+      font-size: 18px;
+    }
+
+    .btn {
+      padding: 8px;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+      margin-top: auto;
+    }
+
+    .btn-view {
+      background: #007185;
+      color: white;
+      margin-bottom: 5px;
+    }
+
+    .btn-cart {
+      background: #FFD814;
+    }
+
+    /* ===== FOOTER ===== */
+    .footer {
+      background: #131921;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="navbar">
+    <div class="logo" onclick="location.href='index.html'">Online Market</div>
+
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="Search products...">
+      <button>🔍</button>
+    </div>
+
+    <div class="cart" onclick="location.href='cart.html'">
+      🛒 Cart
+      <span class="cart-badge" id="cartCount">0</span>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="product-grid" id="products"></div>
+  </div>
+
+  <!-- ===== FOOTER ===== -->
+  <div class="footer">
+    <p>© 2026 Online Market. All rights reserved.</p>
+  </div>
+
+  <script>
+    const API = "https://fakestoreapi.com/products";
+    const productsEl = document.getElementById("products");
+    const searchInput = document.getElementById("searchInput");
+    const cartCount = document.getElementById("cartCount");
+
+    async function fetchProducts() {
+      const res = await fetch(API);
+      return await res.json();
+    }
+
+    function updateCartCount() {
+      const cart = JSON.parse(localStorage.getItem("ecom")) || [];
+      const totalItems = cart.reduce((sum, item) => sum + item.quantity, 0);
+      cartCount.innerText = totalItems;
+    }
+
+    function addToCart(id) {
+      let cart = JSON.parse(localStorage.getItem("ecom")) || [];
+      const existing = cart.find(item => item.id === id);
+
+      if (existing) existing.quantity++;
+      else cart.push({ id, quantity: 1 });
+
+      localStorage.setItem("ecom", JSON.stringify(cart));
+      updateCartCount();
+    }
+
+    function displayProducts(products) {
+      productsEl.innerHTML = "";
+      products.forEach(p => {
+        productsEl.innerHTML += `
+          <div class="card">
+            <img src="${p.image}">
+            <div class="title">${p.title}</div>
+            <div class="price">$${p.price}</div>
+            <button class="btn btn-view" onclick="viewProduct(${p.id})">View</button>
+            <button class="btn btn-cart" onclick="addToCart(${p.id})">Add to Cart</button>
+          </div>
+        `;
+      });
+    }
+
+    function viewProduct(id) {
+      location.href = "product.html?id=" + id;
+    }
+
+    searchInput.addEventListener("input", async () => {
+      const products = await fetchProducts();
+      const value = searchInput.value.toLowerCase();
+      const filtered = products.filter(p =>
+        p.title.toLowerCase().includes(value)
+      );
+      displayProducts(filtered);
+    });
+
+    async function init() {
+      const products = await fetchProducts();
+      displayProducts(products);
+      updateCartCount();
+    }
+
+    init();
+  </script>
+
+  <!-- AI Shopping Assistant (Gemini powered) -->
+  <script src="chatbot.js"></script>
+
+</body>
+
+</html>

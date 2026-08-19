@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Product</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      background: #EAEDED;
+    }
+
+    .navbar {
+      background: #131921;
+      color: white;
+      padding: 25px 20px;
+      display: flex;
+      justify-content: space-between;
+      font-size: large;
+      align-items: center;
+    }
+
+    .container {
+      background: white;
+      margin: 40px auto;
+      padding: 40px;
+      max-width: 1000px;
+      display: flex;
+      gap: 40px;
+      border-radius: 10px;
+    }
+
+    img {
+      width: 300px;
+      object-fit: contain;
+    }
+
+    .price {
+      color: #B12704;
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .rating {
+      color: #FFA41C;
+    }
+
+    button {
+      padding: 10px 15px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-right: 10px;
+    }
+
+    .add {
+      background: #FFD814;
+    }
+
+    .back {
+      background: #007185;
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="navbar">
+    <div onclick="location.href='index.html'" style="cursor:pointer;">Online Market</div>
+    <div onclick="location.href='cart.html'" style="cursor:pointer;">🛒 Cart</div>
+  </div>
+
+  <div class="container" id="details"></div>
+
+  <script>
+    const API = "https://fakestoreapi.com/products";
+
+    function addToCart(id) {
+      let cart = JSON.parse(localStorage.getItem("ecom")) || [];
+      const existing = cart.find(p => p.id === id);
+      if (existing) existing.quantity++;
+      else cart.push({ id, quantity: 1 });
+      localStorage.setItem("ecom", JSON.stringify(cart));
+      alert("Added to Cart");
+    }
+
+    function stars(rate) { return "⭐".repeat(Math.round(rate)); }
+
+    async function load() {
+      const id = new URLSearchParams(location.search).get("id");
+      const res = await fetch(API + "/" + id);
+      const p = await res.json();
+
+      document.getElementById("details").innerHTML = `
+        <div><img src="${p.image}"></div>
+        <div>
+          <h2>${p.title}</h2>
+          <div class="rating">${stars(p.rating.rate)} (${p.rating.rate} / 5 from ${p.rating.count} reviews)</div>
+          <p>${p.description}</p>
+          <div class="price">$${p.price}</div>
+          <button class="add" onclick="addToCart(${p.id})">Add to Cart</button>
+          <button class="back" onclick="location.href='index.html'">Back to Home</button>
+        </div>`;
+      }
+    load();
+  </script>
+
+  <!-- AI Shopping Assistant (Gemini powered) -->
+  <script src="chatbot.js"></script>
+
+</body>
+
+</html>
