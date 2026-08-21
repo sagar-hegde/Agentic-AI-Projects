@@ -1,6 +1,10 @@
 # 🛒 AI Chatbot for E-Commerce Website
 A modern and responsive **E-Commerce Website** built using **HTML5, CSS3, JavaScript and Bootstrap**. It demonstrates frontend development skills, interactive UI design, and client-side data persistence using Local Storage enhanced with an **AI-powered shopping assistant chatbot**.
 
+## 🚀 Live Demo
+
+🔗 *https://e-com-ai.netlify.app*
+
 ## 🚀 Features
 * Responsive homepage design
 * Product listing and showcase section
