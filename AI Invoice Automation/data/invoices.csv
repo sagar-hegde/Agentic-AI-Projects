@@ -1,0 +1,253 @@
+invoice_no,invoice_date,vendor_name,vendor_gstin,po_number,line_item_text,amount,gst_rate,category
+INV-E150AB98,2026-08-23,KPMG Consulting,242610237679Z1,PO-578160,statutory audit fees - KPMG Consulting,371768.48,5,Professional Services
+INV-C212B78E,2026-07-18,EnviroCheck Labs,248991977937Z7,,safety compliance audit - EnviroCheck Labs,302452.71,18,Professional Services
+INV-EC062939,2026-06-06,National Transport Corp,242503068227Z2,PO-783414,freight charges for clinker transport - National Transport Corp,451029.04,5,Logistics
+INV-60D65358,2026-07-06,EnviroCheck Labs,245610783750Z9,PO-676566,tax consulting services - EnviroCheck Labs,191365.29,18,Professional Services
+INV-E1689AE7,2026-07-15,AquaFlow Water Supply,247808938880Z8,PO-592841,diesel generator fuel bill - AquaFlow Water Supply,621721.94,18,Utility
+INV-AA7F32D8,2026-08-08,Indus Rail Cargo,242272368870Z6,PO-114835,rail freight for raw material - Indus Rail Cargo,931641.01,12,Logistics
+INV-31038EC4,2026-06-21,Gujarat Limestone Co,246927597015Z8,PO-482554,limestone supply - Gujarat Limestone Co,813709.29,5,Raw Material
+INV-E7E41B59,2026-08-12,Conveyor Systems India,242464137110Z6,PO-440140,conveyor belt spare parts - Conveyor Systems India,362375.13,28,Maintenance & Spares
+INV-0C20150C,2026-08-08,Speedway Carriers,248339176912Z1,PO-945687,fuel surcharge on transport - Speedway Carriers,187054.21,5,Logistics
+INV-75149B3C,2026-06-05,EcoWrap Pvt Ltd,248907752604Z3,PO-353961,jute packaging material - EcoWrap Pvt Ltd,687558.91,28,Packaging
+INV-052A9F13,2026-06-09,AquaFlow Water Supply,242647489402Z9,PO-243139,industrial water supply bill - AquaFlow Water Supply,438292.86,12,Utility
+INV-B9419A28,2026-06-12,EcoWrap Pvt Ltd,242897690739Z4,PO-612573,poly liner rolls - EcoWrap Pvt Ltd,149160.94,18,Packaging
+INV-0FDBFE31,2026-07-01,Rajputana Aggregates,244656488400Z2,PO-808011,limestone supply - Rajputana Aggregates,913053.73,5,Raw Material
+INV-92E3ED70,2026-06-26,EcoWrap Pvt Ltd,243423086220Z1,PO-630041,printed sack bundles - EcoWrap Pvt Ltd,505539.08,18,Packaging
+INV-1C29A223,2026-06-14,EnviroCheck Labs,247316122432Z9,,legal advisory retainer - EnviroCheck Labs,53835.96,18,Professional Services
+INV-A376E4AA,2026-07-13,Sundar Packaging Solutions,247460544248Z5,PO-218118,laminated pouches order - Sundar Packaging Solutions,435996.83,28,Packaging
+INV-60F01688,2026-06-09,LegalEdge Associates,245283209430Z6,PO-844007,safety compliance audit - LegalEdge Associates,854555.65,28,Professional Services
+INV-9420DC3E,2026-08-20,Deloitte Advisory,241269754673Z8,PO-117233,statutory audit fees - Deloitte Advisory,232610.01,28,Professional Services
+INV-31F018A1,2026-06-23,GreenGrid Energy,245083595988Z5,PO-900177,natural gas supply for kiln - GreenGrid Energy,32364.73,12,Utility
+INV-E880356C,2026-07-10,EcoWrap Pvt Ltd,247079202254Z1,PO-805448,printed sack bundles - EcoWrap Pvt Ltd,769787.94,28,Packaging
+INV-22900A1C,2026-07-09,National Transport Corp,243656086594Z9,PO-564226,freight charges for clinker transport - National Transport Corp,944270.87,5,Logistics
+INV-15A5E3A0,2026-07-29,MotorTech Industries,249444763362Z3,PO-748151,motor overhaul service - MotorTech Industries,116493.32,5,Maintenance & Spares
+INV-5ED26C23,2026-08-17,LegalEdge Associates,244440904834Z7,,legal advisory retainer - LegalEdge Associates,878700.46,18,Professional Services
+INV-8257633C,2026-07-15,Larsen Engg Works,249917981516Z2,PO-303322,conveyor belt spare parts - Larsen Engg Works,321750.64,12,Maintenance & Spares
+INV-999AD8FF,2026-08-21,Shree Minerals Ltd,246464693977Z4,PO-313487,limestone supply - Shree Minerals Ltd,707356.52,12,Raw Material
+INV-CCEFB743,2026-08-01,Bharat Gypsum Supplies,245161807235Z4,PO-609231,clinker raw material batch - Bharat Gypsum Supplies,100230.02,5,Raw Material
+INV-5B00F4D5,2026-08-17,KilnTech Spares,247560389844Z3,PO-940181,motor overhaul service - KilnTech Spares,646965.03,28,Maintenance & Spares
+INV-9CDD8C39,2026-08-05,Rajputana Aggregates,247010379415Z4,PO-245051,clinker raw material batch - Rajputana Aggregates,515716.61,28,Raw Material
+INV-90DE20A4,2026-06-08,GreenGrid Energy,243781569954Z5,PO-174878,industrial water supply bill - GreenGrid Energy,408480.91,12,Utility
+INV-33C4383F,2026-06-23,Larsen Engg Works,245226368665Z3,PO-937302,conveyor belt spare parts - Larsen Engg Works,750902.42,5,Maintenance & Spares
+INV-01219C0A,2026-06-01,Gujarat Limestone Co,249986353481Z7,PO-146228,clinker raw material batch - Gujarat Limestone Co,468197.0,5,Raw Material
+INV-02D1DB66,2026-06-06,Conveyor Systems India,243549776132Z8,PO-744986,kiln bearing replacement - Conveyor Systems India,710416.69,28,Maintenance & Spares
+INV-3CBAE54F,2026-08-02,Precision Bearings Pvt Ltd,246852312425Z3,PO-458332,crusher liner replacement - Precision Bearings Pvt Ltd,486996.15,5,Maintenance & Spares
+INV-A0C9C277,2026-07-23,PolyPack Industries,244310415016Z1,PO-265613,printed sack bundles - PolyPack Industries,319136.59,28,Packaging
+INV-0F492662,2026-07-28,National Transport Corp,247648059419Z3,PO-597732,container handling charges - National Transport Corp,585118.49,28,Logistics
+INV-5AF5B2AF,2026-08-23,Larsen Engg Works,249939982945Z3,PO-425301,preventive maintenance service - Larsen Engg Works,830629.44,18,Maintenance & Spares
+INV-2ED3FFD6,2026-06-12,Larsen Engg Works,242721355673Z3,PO-132146,kiln bearing replacement - Larsen Engg Works,178884.04,12,Maintenance & Spares
+INV-7239DB92,2026-08-03,GreenGrid Energy,242774884818Z4,PO-752878,electricity consumption charges - GreenGrid Energy,627516.08,28,Utility
+INV-15D3982E,2026-06-13,Sundar Packaging Solutions,248130494783Z1,PO-170559,jute packaging material - Sundar Packaging Solutions,891040.56,5,Packaging
+INV-CA91AE56,2026-07-14,MotorTech Industries,246857897124Z5,PO-912085,preventive maintenance service - MotorTech Industries,500428.65,12,Maintenance & Spares
+INV-093AFBA8,2026-08-22,Konkan Silica Traders,242349409434Z5,PO-804318,silica sand delivery - Konkan Silica Traders,888493.29,12,Raw Material
+INV-743775E8,2026-06-23,National Transport Corp,243381183483Z4,PO-497562,container handling charges - National Transport Corp,315264.3,18,Logistics
+INV-8C2D8D06,2026-06-17,EnviroCheck Labs,245613503623Z8,PO-461249,environmental impact assessment - EnviroCheck Labs,732553.01,5,Professional Services
+INV-52B3389D,2026-08-07,KilnTech Spares,245626388820Z2,PO-665990,conveyor belt spare parts - KilnTech Spares,949977.98,12,Maintenance & Spares
+INV-6328BF68,2026-06-12,National Transport Corp,247291584955Z5,PO-357420,fuel surcharge on transport - National Transport Corp,769323.66,28,Logistics
+INV-C97E2D5A,2026-08-04,Conveyor Systems India,245471158508Z4,PO-598733,preventive maintenance service - Conveyor Systems India,485657.88,28,Maintenance & Spares
+INV-387A20F3,2026-07-18,GreenGrid Energy,245354747485Z9,,natural gas supply for kiln - GreenGrid Energy,93065.31,28,Utility
+INV-F4BF8B6E,2026-06-30,Adani Power Distribution,241881351238Z9,PO-326441,natural gas supply for kiln - Adani Power Distribution,237441.9,12,Utility
+INV-16BE6C08,2026-07-22,Sundar Packaging Solutions,242014911848Z2,PO-267475,laminated pouches order - Sundar Packaging Solutions,556678.03,5,Packaging
+INV-ADD1E4D6,2026-06-21,Gujarat Limestone Co,249896606039Z3,PO-356702,silica sand delivery - Gujarat Limestone Co,205355.62,18,Raw Material
+INV-72856942,2026-06-28,Gujarat Limestone Co,245334976883Z2,,fly ash procurement - Gujarat Limestone Co,305838.92,5,Raw Material
+INV-11896580,2026-07-09,Rajputana Aggregates,244272602734Z9,PO-755674,fly ash procurement - Rajputana Aggregates,11057.09,18,Raw Material
+INV-9DAF15A0,2026-06-12,Precision Bearings Pvt Ltd,245539308214Z5,,motor overhaul service - Precision Bearings Pvt Ltd,442961.42,5,Maintenance & Spares
+INV-E9747256,2026-08-01,AquaFlow Water Supply,248372755146Z9,PO-535673,electricity consumption charges - AquaFlow Water Supply,618142.53,12,Utility
+INV-F5EC83A7,2026-07-05,EnviroCheck Labs,246523804237Z1,PO-448048,environmental impact assessment - EnviroCheck Labs,246621.57,12,Professional Services
+INV-0D4DBCC9,2026-07-23,AquaFlow Water Supply,249097790557Z2,PO-745558,diesel generator fuel bill - AquaFlow Water Supply,707217.41,12,Utility
+INV-4328F555,2026-07-24,State Electricity Board,244145461251Z2,PO-442589,power distribution charges - State Electricity Board,39429.39,18,Utility
+INV-F3E851E1,2026-07-04,Shree Minerals Ltd,241540137296Z8,PO-273148,limestone supply - Shree Minerals Ltd,697456.95,5,Raw Material
+INV-29FD3F5C,2026-08-21,MotorTech Industries,248997701619Z7,PO-979827,conveyor belt spare parts - MotorTech Industries,441088.5,5,Maintenance & Spares
+INV-DFA39CC1,2026-07-09,EcoWrap Pvt Ltd,247928074841Z3,PO-746447,printed sack bundles - EcoWrap Pvt Ltd,148302.11,12,Packaging
+INV-0CB8138C,2026-08-22,Jute Bags Co,248210176888Z9,PO-461145,printed sack bundles - Jute Bags Co,291071.9,5,Packaging
+INV-341D05F1,2026-08-16,Speedway Carriers,242960488639Z8,PO-686075,freight charges for clinker transport - Speedway Carriers,533076.26,5,Logistics
+INV-E08C889F,2026-07-27,Konkan Silica Traders,244783282817Z4,PO-265409,silica sand delivery - Konkan Silica Traders,132774.09,18,Raw Material
+INV-7FD4075F,2026-06-25,National Transport Corp,246611903015Z4,,rail freight for raw material - National Transport Corp,670089.36,18,Logistics
+INV-893DA0A3,2026-07-23,EcoWrap Pvt Ltd,246642266247Z3,PO-313795,HDPE cement bags supply - EcoWrap Pvt Ltd,187718.84,28,Packaging
+INV-DE104319,2026-08-07,MotorTech Industries,248695129534Z3,PO-969226,conveyor belt spare parts - MotorTech Industries,568528.84,5,Maintenance & Spares
+INV-ADDA2522,2026-06-24,State Electricity Board,242849785671Z4,PO-693418,electricity consumption charges - State Electricity Board,284352.44,18,Utility
+INV-2B4C7333,2026-06-14,Precision Bearings Pvt Ltd,243179320310Z3,PO-335137,motor overhaul service - Precision Bearings Pvt Ltd,573586.31,18,Maintenance & Spares
+INV-9A1CC079,2026-07-21,Deloitte Advisory,244804440746Z6,PO-640418,legal advisory retainer - Deloitte Advisory,197898.72,12,Professional Services
+INV-4004E07B,2026-07-22,LegalEdge Associates,247638204740Z5,PO-943776,tax consulting services - LegalEdge Associates,609929.7,28,Professional Services
+INV-7F3923F9,2026-08-17,EnviroCheck Labs,243493857758Z3,PO-855638,tax consulting services - EnviroCheck Labs,96009.56,12,Professional Services
+INV-42474852,2026-08-24,Indus Rail Cargo,244178659381Z4,PO-377501,container handling charges - Indus Rail Cargo,295668.19,5,Logistics
+INV-DE0A8101,2026-08-09,Crown Sack Manufacturers,246916301780Z2,PO-793939,laminated pouches order - Crown Sack Manufacturers,943270.92,28,Packaging
+INV-05FC3AE9,2026-08-17,AquaFlow Water Supply,248495457335Z5,PO-341296,natural gas supply for kiln - AquaFlow Water Supply,15628.28,5,Utility
+INV-F2FB4D23,2026-06-03,Gujarat Limestone Co,241519709079Z4,,fly ash procurement - Gujarat Limestone Co,855436.47,28,Raw Material
+INV-B51BCDE3,2026-08-12,Speedway Carriers,243112035409Z1,PO-950544,freight charges for clinker transport - Speedway Carriers,782432.94,28,Logistics
+INV-B77C535D,2026-06-10,Conveyor Systems India,247019900273Z2,PO-565108,motor overhaul service - Conveyor Systems India,439476.06,5,Maintenance & Spares
+INV-B315D2E7,2026-08-19,Larsen Engg Works,243465740756Z7,PO-904711,preventive maintenance service - Larsen Engg Works,354242.51,18,Maintenance & Spares
+INV-F1926A99,2026-08-06,Speedway Carriers,248854238082Z3,PO-869440,freight charges for clinker transport - Speedway Carriers,416379.04,18,Logistics
+INV-CBFDD15C,2026-07-10,Larsen Engg Works,246340003593Z7,PO-477114,motor overhaul service - Larsen Engg Works,419382.5,18,Maintenance & Spares
+INV-0F533FE8,2026-07-04,Konkan Silica Traders,247676965974Z2,PO-240814,silica sand delivery - Konkan Silica Traders,584200.46,5,Raw Material
+INV-80DA7FFD,2026-07-31,KilnTech Spares,242928130926Z9,PO-947903,crusher liner replacement - KilnTech Spares,49158.27,18,Maintenance & Spares
+INV-EC1741A6,2026-08-25,MotorTech Industries,247007500393Z2,PO-427704,conveyor belt spare parts - MotorTech Industries,397812.38,28,Maintenance & Spares
+INV-A076023C,2026-08-23,Larsen Engg Works,242099375147Z3,PO-897143,conveyor belt spare parts - Larsen Engg Works,230565.26,12,Maintenance & Spares
+INV-79255C01,2026-06-06,State Electricity Board,244600630513Z2,PO-777737,industrial water supply bill - State Electricity Board,607694.04,18,Utility
+INV-705887D3,2026-07-23,Rajputana Aggregates,249080621072Z1,PO-448321,gypsum consignment - Rajputana Aggregates,822458.57,12,Raw Material
+INV-DFFB51DF,2026-08-09,Adani Power Distribution,247608153267Z6,PO-116495,diesel generator fuel bill - Adani Power Distribution,823075.48,28,Utility
+INV-BCE9E33E,2026-07-21,EcoWrap Pvt Ltd,246046864799Z3,PO-138105,jute packaging material - EcoWrap Pvt Ltd,512113.44,5,Packaging
+INV-EAC0DBC4,2026-08-04,Deloitte Advisory,244996346509Z7,,safety compliance audit - Deloitte Advisory,777334.47,18,Professional Services
+INV-F70E8C37,2026-08-17,EcoWrap Pvt Ltd,241948540266Z3,PO-577079,laminated pouches order - EcoWrap Pvt Ltd,658253.54,18,Packaging
+INV-E150AB98,2026-08-23,SafetyFirst Auditors,242610237679Z1,PO-203896,safety compliance audit - SafetyFirst Auditors,371768.48,5,Professional Services
+INV-C4FF9ED3,2026-06-03,GreenGrid Energy,242952996248Z4,PO-726152,natural gas supply for kiln - GreenGrid Energy,65038.18,18,Utility
+INV-0CB8138C,2026-08-22,Jute Bags Co,248210176888Z9,PO-332022,laminated pouches order - Jute Bags Co,291071.9,5,Packaging
+INV-AFA37D76,2026-07-29,KPMG Consulting,243713284816Z3,,environmental impact assessment - KPMG Consulting,931931.67,28,Professional Services
+INV-24B9EC28,2026-07-15,AquaFlow Water Supply,249165632300Z9,PO-563187,natural gas supply for kiln - AquaFlow Water Supply,636163.96,28,Utility
+INV-2577A8E9,2026-08-13,LegalEdge Associates,241348849508Z5,PO-855303,environmental impact assessment - LegalEdge Associates,46805.03,18,Professional Services
+INV-1CDF49E6,2026-08-24,AquaFlow Water Supply,247763765757Z5,,electricity consumption charges - AquaFlow Water Supply,231447.77,18,Utility
+INV-4D02A888,2026-07-07,National Transport Corp,247533932947Z4,PO-181247,road transportation of cement bags - National Transport Corp,799150.84,18,Logistics
+INV-3D5D129C,2026-07-24,National Transport Corp,249886101513Z6,,fuel surcharge on transport - National Transport Corp,411532.09,18,Logistics
+INV-BC338A5F,2026-06-07,Sundar Packaging Solutions,242041349374Z9,PO-344146,jute packaging material - Sundar Packaging Solutions,110891.44,12,Packaging
+INV-3737A9ED,2026-07-25,KPMG Consulting,245638860656Z5,PO-731894,tax consulting services - KPMG Consulting,284727.97,5,Professional Services
+INV-D9053C5F,2026-08-11,Jute Bags Co,243057629778Z4,PO-384303,laminated pouches order - Jute Bags Co,47626.63,5,Packaging
+INV-69EC8068,2026-07-24,BlueDart Freight,249344011888Z5,PO-994905,fuel surcharge on transport - BlueDart Freight,366318.93,5,Logistics
+INV-4AAB4788,2026-06-15,EcoWrap Pvt Ltd,246582557981Z1,PO-806537,laminated pouches order - EcoWrap Pvt Ltd,485890.72,28,Packaging
+INV-A019B909,2026-07-12,State Electricity Board,246299224734Z1,PO-688678,diesel generator fuel bill - State Electricity Board,366926.02,18,Utility
+INV-31E6D8FA,2026-08-23,Konkan Silica Traders,243962958940Z5,PO-804314,clinker raw material batch - Konkan Silica Traders,406595.94,12,Raw Material
+INV-40B1F1EB,2026-06-05,GreenGrid Energy,242753617371Z3,,industrial water supply bill - GreenGrid Energy,618088.54,28,Utility
+INV-AB81166A,2026-07-14,MotorTech Industries,241124352982Z5,PO-435788,crusher liner replacement - MotorTech Industries,32731.11,28,Maintenance & Spares
+INV-AB81166A,2026-07-14,Conveyor Systems India,241124352982Z5,PO-423993,preventive maintenance service - Conveyor Systems India,32731.11,18,Maintenance & Spares
+INV-89837CBE,2026-08-19,Precision Bearings Pvt Ltd,247860121241Z3,PO-971728,motor overhaul service - Precision Bearings Pvt Ltd,833561.99,12,Maintenance & Spares
+INV-2D984831,2026-07-20,Indus Rail Cargo,243096929657Z5,PO-130434,fuel surcharge on transport - Indus Rail Cargo,761475.82,12,Logistics
+INV-ABF9ED5C,2026-07-06,Gujarat Limestone Co,247006365648Z5,PO-910891,gypsum consignment - Gujarat Limestone Co,217993.98,12,Raw Material
+INV-380E6BE0,2026-06-12,Shree Minerals Ltd,241958682846Z2,PO-671858,limestone supply - Shree Minerals Ltd,706540.57,12,Raw Material
+INV-7C8E233D,2026-07-27,Deloitte Advisory,245092199300Z3,PO-811027,environmental impact assessment - Deloitte Advisory,350239.09,12,Professional Services
+INV-2FA3FFA0,2026-07-27,KilnTech Spares,249952125442Z3,,kiln bearing replacement - KilnTech Spares,432392.77,18,Maintenance & Spares
+INV-96106EE9,2026-08-05,National Transport Corp,247490442894Z3,PO-397571,container handling charges - National Transport Corp,424162.43,12,Logistics
+INV-A5508706,2026-06-23,National Transport Corp,245033992825Z2,PO-373903,fuel surcharge on transport - National Transport Corp,384497.04,18,Logistics
+INV-2F1DF68A,2026-07-15,PolyPack Industries,244203205881Z2,,printed sack bundles - PolyPack Industries,247698.7,5,Packaging
+INV-2F4B3359,2026-08-15,State Electricity Board,244524233168Z5,PO-978157,power distribution charges - State Electricity Board,328162.48,18,Utility
+INV-3726436F,2026-08-16,Precision Bearings Pvt Ltd,245836956044Z9,PO-499407,motor overhaul service - Precision Bearings Pvt Ltd,581016.17,5,Maintenance & Spares
+INV-BC117E14,2026-08-20,State Electricity Board,242950049698Z4,PO-926097,electricity consumption charges - State Electricity Board,226050.61,18,Utility
+INV-A8CDB451,2026-07-07,AquaFlow Water Supply,249744120054Z2,PO-817644,natural gas supply for kiln - AquaFlow Water Supply,598444.83,28,Utility
+INV-2577A8E9,2026-08-13,KPMG Consulting,241348849508Z5,PO-305721,statutory audit fees - KPMG Consulting,46805.03,28,Professional Services
+INV-C67A2E53,2026-08-03,BlueDart Freight,247250964836Z4,PO-502630,road transportation of cement bags - BlueDart Freight,934867.73,5,Logistics
+INV-1BB0ED51,2026-07-26,Precision Bearings Pvt Ltd,246466597005Z9,,motor overhaul service - Precision Bearings Pvt Ltd,87010.37,12,Maintenance & Spares
+INV-142D7D4F,2026-06-10,Gujarat Limestone Co,248325785916Z9,,gypsum consignment - Gujarat Limestone Co,608160.8,18,Raw Material
+INV-0C347443,2026-07-18,Deloitte Advisory,248689593739Z1,PO-700076,safety compliance audit - Deloitte Advisory,754125.86,12,Professional Services
+INV-B4F94ED9,2026-07-13,Konkan Silica Traders,241030884438Z1,PO-132938,clinker raw material batch - Konkan Silica Traders,224768.08,12,Raw Material
+INV-D7F4C91C,2026-06-26,Adani Logistics,249284507318Z7,PO-849747,rail freight for raw material - Adani Logistics,109829.02,5,Logistics
+INV-668A08D9,2026-08-02,Adani Logistics,247671625956Z3,PO-889359,rail freight for raw material - Adani Logistics,50875.79,5,Logistics
+INV-EBB19A79,2026-07-14,SafetyFirst Auditors,245973917657Z7,PO-313933,environmental impact assessment - SafetyFirst Auditors,76740.59,5,Professional Services
+INV-5550D656,2026-07-31,Jute Bags Co,241194576436Z3,PO-943019,poly liner rolls - Jute Bags Co,487593.41,5,Packaging
+INV-8708BCC9,2026-06-04,Indus Rail Cargo,248184602688Z4,PO-254511,rail freight for raw material - Indus Rail Cargo,95970.74,12,Logistics
+INV-1E8F4236,2026-08-08,Crown Sack Manufacturers,242753459822Z5,PO-891062,poly liner rolls - Crown Sack Manufacturers,308247.86,28,Packaging
+INV-E74106A0,2026-06-19,EnviroCheck Labs,246986770879Z6,PO-483366,tax consulting services - EnviroCheck Labs,119919.98,5,Professional Services
+INV-1F7E19E3,2026-06-15,Adani Power Distribution,249648665968Z7,,diesel generator fuel bill - Adani Power Distribution,760953.54,12,Utility
+INV-473D058A,2026-06-29,EnviroCheck Labs,244656572173Z3,PO-633469,tax consulting services - EnviroCheck Labs,281521.27,18,Professional Services
+INV-583B5A9D,2026-07-26,Conveyor Systems India,244014119648Z9,PO-325468,motor overhaul service - Conveyor Systems India,435399.92,28,Maintenance & Spares
+INV-F7C0B237,2026-08-09,State Electricity Board,245877639950Z8,PO-879238,power distribution charges - State Electricity Board,117385.49,12,Utility
+INV-2E194067,2026-06-10,SafetyFirst Auditors,243109688769Z2,,legal advisory retainer - SafetyFirst Auditors,671203.62,12,Professional Services
+INV-8865049A,2026-07-11,Bharat Gypsum Supplies,248235363119Z1,PO-133659,fly ash procurement - Bharat Gypsum Supplies,262290.85,12,Raw Material
+INV-C0AD5011,2026-07-22,Gujarat Gas Ltd,242886149718Z8,PO-833723,natural gas supply for kiln - Gujarat Gas Ltd,568531.48,18,Utility
+INV-9A87955D,2026-06-28,LegalEdge Associates,249354711271Z9,PO-352422,legal advisory retainer - LegalEdge Associates,476522.8,5,Professional Services
+INV-21D5E957,2026-07-07,AquaFlow Water Supply,244683935600Z6,PO-619536,natural gas supply for kiln - AquaFlow Water Supply,310436.88,5,Utility
+INV-9E4501AD,2026-06-11,SafetyFirst Auditors,244569592370Z8,PO-105506,safety compliance audit - SafetyFirst Auditors,137618.81,18,Professional Services
+INV-6EED1F03,2026-07-24,National Transport Corp,246698759353Z7,PO-972335,container handling charges - National Transport Corp,316366.21,28,Logistics
+INV-2577A8E9,2026-08-13,SafetyFirst Auditors,241348849508Z5,PO-904214,tax consulting services - SafetyFirst Auditors,46805.03,5,Professional Services
+INV-C8296246,2026-08-07,Konkan Silica Traders,249805294274Z8,PO-994141,limestone supply - Konkan Silica Traders,712592.98,5,Raw Material
+INV-D6BDCD70,2026-06-01,Konkan Silica Traders,244274958945Z9,PO-656116,clinker raw material batch - Konkan Silica Traders,195374.26,18,Raw Material
+INV-950C009D,2026-07-22,AquaFlow Water Supply,246645808194Z6,,diesel generator fuel bill - AquaFlow Water Supply,42568.7,5,Utility
+INV-7AEB593A,2026-06-16,EcoWrap Pvt Ltd,244904100195Z4,PO-877493,jute packaging material - EcoWrap Pvt Ltd,459589.34,18,Packaging
+INV-4DD7FB5A,2026-08-22,Crown Sack Manufacturers,247584730597Z9,PO-909489,poly liner rolls - Crown Sack Manufacturers,362968.94,12,Packaging
+INV-0DABC0E2,2026-07-17,Rajputana Aggregates,245931025271Z3,,clinker raw material batch - Rajputana Aggregates,41938.51,18,Raw Material
+INV-EB05861B,2026-06-20,AquaFlow Water Supply,249655852024Z3,PO-786587,electricity consumption charges - AquaFlow Water Supply,503445.92,28,Utility
+INV-8C2CB78B,2026-07-09,SafetyFirst Auditors,242076341629Z9,PO-755383,tax consulting services - SafetyFirst Auditors,851020.21,5,Professional Services
+INV-C9CF4BE7,2026-06-06,KilnTech Spares,248757570742Z2,PO-878086,crusher liner replacement - KilnTech Spares,509692.57,12,Maintenance & Spares
+INV-B0B5ECDB,2026-08-08,Adani Power Distribution,248270110908Z2,PO-993744,power distribution charges - Adani Power Distribution,744196.82,18,Utility
+INV-32551895,2026-06-13,EnviroCheck Labs,243003484425Z5,PO-247720,tax consulting services - EnviroCheck Labs,108025.27,12,Professional Services
+INV-4C563BDC,2026-06-18,PolyPack Industries,243027530378Z5,PO-906325,poly liner rolls - PolyPack Industries,944464.49,5,Packaging
+INV-D5281C0F,2026-08-07,Crown Sack Manufacturers,249837427517Z7,PO-684357,jute packaging material - Crown Sack Manufacturers,808079.16,18,Packaging
+INV-CD06F44D,2026-06-15,Indus Rail Cargo,248672650595Z7,PO-636265,rail freight for raw material - Indus Rail Cargo,44038.28,28,Logistics
+INV-8CEA4B3D,2026-07-15,Crown Sack Manufacturers,242236045959Z9,PO-513697,laminated pouches order - Crown Sack Manufacturers,459974.82,18,Packaging
+INV-9C94333B,2026-06-11,Sundar Packaging Solutions,244545940090Z4,PO-724756,printed sack bundles - Sundar Packaging Solutions,669228.16,28,Packaging
+INV-1490BA36,2026-08-25,Jute Bags Co,248846861559Z9,PO-520304,poly liner rolls - Jute Bags Co,814490.01,28,Packaging
+INV-B5E28ADB,2026-08-19,Shree Minerals Ltd,243864457210Z6,PO-526117,silica sand delivery - Shree Minerals Ltd,205892.1,12,Raw Material
+INV-43ACA793,2026-07-07,Conveyor Systems India,245578056564Z2,PO-505341,kiln bearing replacement - Conveyor Systems India,751451.77,18,Maintenance & Spares
+INV-8EF3B2C7,2026-06-28,Adani Logistics,241594312071Z4,PO-260227,rail freight for raw material - Adani Logistics,324368.38,5,Logistics
+INV-EBB19A79,2026-07-14,LegalEdge Associates,245973917657Z7,PO-350956,safety compliance audit - LegalEdge Associates,76740.59,12,Professional Services
+INV-D7A4A73F,2026-07-31,Adani Power Distribution,241672302490Z7,PO-722656,industrial water supply bill - Adani Power Distribution,233953.0,5,Utility
+INV-B7F81D4F,2026-08-06,Jute Bags Co,242377246195Z5,PO-792282,poly liner rolls - Jute Bags Co,943861.4,12,Packaging
+INV-07A9D505,2026-07-05,PolyPack Industries,242065354117Z5,PO-568436,jute packaging material - PolyPack Industries,932747.45,28,Packaging
+INV-155A3173,2026-08-22,SafetyFirst Auditors,242428156550Z1,PO-454992,statutory audit fees - SafetyFirst Auditors,332803.95,5,Professional Services
+INV-CC5A41F3,2026-06-29,EnviroCheck Labs,245952163720Z3,PO-843788,tax consulting services - EnviroCheck Labs,179409.27,12,Professional Services
+INV-29FD3F5C,2026-08-21,MotorTech Industries,248997701619Z7,PO-843963,kiln bearing replacement - MotorTech Industries,441088.5,5,Maintenance & Spares
+INV-FD018357,2026-08-10,Adani Logistics,246879898071Z9,PO-546173,container handling charges - Adani Logistics,659663.5,18,Logistics
+INV-4D3E39A9,2026-06-13,Shree Minerals Ltd,243030106617Z8,PO-299659,clinker raw material batch - Shree Minerals Ltd,232200.37,28,Raw Material
+INV-D86AE203,2026-07-26,Konkan Silica Traders,248519962896Z6,,silica sand delivery - Konkan Silica Traders,922755.83,5,Raw Material
+INV-16339517,2026-06-25,Adani Logistics,246756711494Z5,PO-641722,container handling charges - Adani Logistics,207816.9,18,Logistics
+INV-A990C2AD,2026-06-07,LegalEdge Associates,248575707116Z6,,safety compliance audit - LegalEdge Associates,839273.3,18,Professional Services
+INV-F43B3EC8,2026-08-04,KilnTech Spares,248006745733Z5,PO-469038,crusher liner replacement - KilnTech Spares,72325.66,28,Maintenance & Spares
+INV-4CB63093,2026-07-28,Deloitte Advisory,246850392220Z1,PO-812048,safety compliance audit - Deloitte Advisory,71333.83,18,Professional Services
+INV-6FC8ED25,2026-08-14,BlueDart Freight,242785736751Z4,PO-508396,container handling charges - BlueDart Freight,391958.61,28,Logistics
+INV-CECE6851,2026-06-07,Indus Rail Cargo,248055556030Z3,PO-290556,fuel surcharge on transport - Indus Rail Cargo,632545.77,5,Logistics
+INV-D13A2FE2,2026-07-30,Bharat Gypsum Supplies,248217611860Z2,PO-724834,limestone supply - Bharat Gypsum Supplies,719946.79,5,Raw Material
+INV-206B5C25,2026-07-12,Gujarat Gas Ltd,249935429720Z1,PO-786406,power distribution charges - Gujarat Gas Ltd,516662.63,12,Utility
+INV-0A572863,2026-06-20,Sundar Packaging Solutions,247579604766Z4,PO-462974,printed sack bundles - Sundar Packaging Solutions,642436.87,28,Packaging
+INV-46D23852,2026-08-23,Crown Sack Manufacturers,246674372082Z1,PO-193806,printed sack bundles - Crown Sack Manufacturers,620807.45,18,Packaging
+INV-206B5C25,2026-07-12,State Electricity Board,249935429720Z1,PO-870214,diesel generator fuel bill - State Electricity Board,516662.63,28,Utility
+INV-2FEA4166,2026-08-13,EnviroCheck Labs,246545970956Z1,PO-352249,tax consulting services - EnviroCheck Labs,235905.72,12,Professional Services
+INV-316AC71C,2026-07-21,State Electricity Board,245135595227Z3,PO-336574,natural gas supply for kiln - State Electricity Board,765587.05,28,Utility
+INV-D96CCB93,2026-06-13,Larsen Engg Works,241288335378Z2,,motor overhaul service - Larsen Engg Works,906284.15,28,Maintenance & Spares
+INV-49782044,2026-06-10,Shree Minerals Ltd,245897045684Z3,PO-361941,gypsum consignment - Shree Minerals Ltd,188477.85,28,Raw Material
+INV-C3DBBF69,2026-08-04,Adani Logistics,247971399399Z2,PO-414910,rail freight for raw material - Adani Logistics,414282.15,18,Logistics
+INV-173C29AB,2026-06-16,SafetyFirst Auditors,244159699467Z8,PO-688956,safety compliance audit - SafetyFirst Auditors,912809.89,5,Professional Services
+INV-DD05A638,2026-06-28,Konkan Silica Traders,244460967357Z7,PO-263032,fly ash procurement - Konkan Silica Traders,215655.07,18,Raw Material
+INV-E7C0121A,2026-07-09,Deloitte Advisory,247561728644Z2,PO-349183,legal advisory retainer - Deloitte Advisory,211146.77,12,Professional Services
+INV-79562D5F,2026-08-12,Konkan Silica Traders,249285415473Z5,PO-352572,silica sand delivery - Konkan Silica Traders,468266.58,5,Raw Material
+INV-5F332157,2026-07-24,Precision Bearings Pvt Ltd,242390587865Z3,PO-232915,kiln bearing replacement - Precision Bearings Pvt Ltd,132158.64,18,Maintenance & Spares
+INV-A376E4AA,2026-07-13,PolyPack Industries,247460544248Z5,,HDPE cement bags supply - PolyPack Industries,435996.83,28,Packaging
+INV-3D40CDC1,2026-07-31,AquaFlow Water Supply,242644847276Z7,,power distribution charges - AquaFlow Water Supply,886746.82,12,Utility
+INV-E366CDA7,2026-06-13,AquaFlow Water Supply,241158998032Z9,PO-448121,power distribution charges - AquaFlow Water Supply,939085.99,12,Utility
+INV-7D4790BB,2026-06-14,Crown Sack Manufacturers,244765583254Z1,PO-732063,jute packaging material - Crown Sack Manufacturers,890285.44,18,Packaging
+INV-CA4E30B6,2026-07-29,Rajputana Aggregates,242627677155Z7,PO-922157,fly ash procurement - Rajputana Aggregates,858101.18,12,Raw Material
+INV-0E0E7B64,2026-06-18,Bharat Gypsum Supplies,247439149233Z8,,silica sand delivery - Bharat Gypsum Supplies,70349.67,18,Raw Material
+INV-4E77D310,2026-07-30,Deloitte Advisory,242343100352Z3,PO-639728,legal advisory retainer - Deloitte Advisory,898552.57,28,Professional Services
+INV-3B4A8AD6,2026-08-04,LegalEdge Associates,242548781344Z9,PO-924613,safety compliance audit - LegalEdge Associates,633837.77,5,Professional Services
+INV-04DD5BAB,2026-06-03,EnviroCheck Labs,249776913529Z7,PO-365971,statutory audit fees - EnviroCheck Labs,375807.42,28,Professional Services
+INV-9871FBC7,2026-06-25,Jute Bags Co,249650425740Z6,PO-695361,printed sack bundles - Jute Bags Co,618684.79,12,Packaging
+INV-98647277,2026-06-08,KPMG Consulting,249210290540Z7,PO-929924,environmental impact assessment - KPMG Consulting,339157.26,5,Professional Services
+INV-9A69F5F7,2026-07-03,BlueDart Freight,247351029162Z6,PO-153872,freight charges for clinker transport - BlueDart Freight,548768.49,28,Logistics
+INV-7060F2E6,2026-07-21,National Transport Corp,244949401194Z9,,container handling charges - National Transport Corp,690178.86,28,Logistics
+INV-93EAE181,2026-06-07,Jute Bags Co,242593765711Z9,PO-299734,printed sack bundles - Jute Bags Co,236772.72,12,Packaging
+INV-75467ACE,2026-06-15,BlueDart Freight,248299146480Z6,PO-736745,fuel surcharge on transport - BlueDart Freight,900787.11,28,Logistics
+INV-16E9D1BE,2026-07-11,Precision Bearings Pvt Ltd,247783763790Z6,PO-757685,conveyor belt spare parts - Precision Bearings Pvt Ltd,904117.2,28,Maintenance & Spares
+INV-AE681ED1,2026-07-18,State Electricity Board,247199283151Z4,PO-204180,electricity consumption charges - State Electricity Board,658244.39,12,Utility
+INV-2F5F741E,2026-07-03,Gujarat Gas Ltd,246329323383Z3,PO-768891,industrial water supply bill - Gujarat Gas Ltd,82388.19,28,Utility
+INV-DFFB51DF,2026-08-09,GreenGrid Energy,247608153267Z6,PO-899929,power distribution charges - GreenGrid Energy,823075.48,28,Utility
+INV-C70D314D,2026-07-14,Shree Minerals Ltd,244131356954Z2,,fly ash procurement - Shree Minerals Ltd,341748.31,28,Raw Material
+INV-A0F9A8D1,2026-06-06,Gujarat Gas Ltd,245726642606Z3,PO-130353,electricity consumption charges - Gujarat Gas Ltd,416801.13,5,Utility
+INV-51B3E03A,2026-08-14,Crown Sack Manufacturers,247858674568Z5,PO-920934,poly liner rolls - Crown Sack Manufacturers,297832.52,5,Packaging
+INV-B4390AE4,2026-07-12,National Transport Corp,248164814926Z6,,container handling charges - National Transport Corp,237719.36,28,Logistics
+INV-37CF4F2B,2026-06-16,AquaFlow Water Supply,249279291478Z8,PO-608257,electricity consumption charges - AquaFlow Water Supply,199751.86,12,Utility
+INV-EECD716D,2026-08-25,Sundar Packaging Solutions,244752171298Z4,PO-716126,printed sack bundles - Sundar Packaging Solutions,642598.95,5,Packaging
+INV-1BB245FC,2026-06-06,BlueDart Freight,248612747444Z2,PO-693423,fuel surcharge on transport - BlueDart Freight,658558.78,12,Logistics
+INV-A0A11721,2026-06-03,Jute Bags Co,243271361431Z4,PO-892911,laminated pouches order - Jute Bags Co,119752.44,28,Packaging
+INV-05321277,2026-08-06,KilnTech Spares,249049270990Z9,PO-845957,motor overhaul service - KilnTech Spares,57153.37,28,Maintenance & Spares
+INV-7B821C42,2026-08-06,Speedway Carriers,244803044105Z7,PO-943170,road transportation of cement bags - Speedway Carriers,147012.21,5,Logistics
+INV-287B124D,2026-08-25,BlueDart Freight,243668616333Z4,,road transportation of cement bags - BlueDart Freight,195797.76,5,Logistics
+INV-A3A928D2,2026-07-15,Rajputana Aggregates,243021598245Z4,PO-582662,silica sand delivery - Rajputana Aggregates,157964.37,5,Raw Material
+INV-423D156D,2026-07-25,Conveyor Systems India,243653594796Z2,PO-794093,kiln bearing replacement - Conveyor Systems India,840108.34,12,Maintenance & Spares
+INV-B5B62A67,2026-08-14,Gujarat Limestone Co,241664847319Z5,PO-161324,fly ash procurement - Gujarat Limestone Co,664189.2,28,Raw Material
+INV-55AED727,2026-08-12,Bharat Gypsum Supplies,249760623742Z2,PO-712024,limestone supply - Bharat Gypsum Supplies,894983.55,12,Raw Material
+INV-E294DE74,2026-08-17,Indus Rail Cargo,246600100279Z4,PO-708158,fuel surcharge on transport - Indus Rail Cargo,291494.78,5,Logistics
+INV-FFBE2B31,2026-06-08,EcoWrap Pvt Ltd,245484962610Z8,PO-327823,HDPE cement bags supply - EcoWrap Pvt Ltd,428547.48,5,Packaging
+INV-64496AD7,2026-08-24,EcoWrap Pvt Ltd,244031281545Z9,PO-440839,poly liner rolls - EcoWrap Pvt Ltd,875130.73,5,Packaging
+INV-170AFECB,2026-08-01,Gujarat Gas Ltd,249218363978Z3,PO-964749,industrial water supply bill - Gujarat Gas Ltd,132494.53,18,Utility
+INV-71F6356F,2026-08-03,Deloitte Advisory,248487449580Z7,PO-295892,legal advisory retainer - Deloitte Advisory,419608.2,28,Professional Services
+INV-18DD756E,2026-08-23,SafetyFirst Auditors,243464975279Z9,PO-429657,legal advisory retainer - SafetyFirst Auditors,426190.81,5,Professional Services
+INV-5B6DB017,2026-06-27,Sundar Packaging Solutions,242282044148Z5,PO-839142,poly liner rolls - Sundar Packaging Solutions,464097.66,12,Packaging
+INV-CF609E7B,2026-07-25,Larsen Engg Works,243877685081Z7,PO-797660,conveyor belt spare parts - Larsen Engg Works,532101.23,18,Maintenance & Spares
+INV-CBFDD15C,2026-07-10,Larsen Engg Works,246340003593Z7,PO-772865,motor overhaul service - Larsen Engg Works,419382.5,28,Maintenance & Spares
+INV-235260FF,2026-08-07,National Transport Corp,241822662216Z8,PO-718226,freight charges for clinker transport - National Transport Corp,707793.96,12,Logistics
+INV-D045D78E,2026-06-23,KilnTech Spares,242409274786Z1,PO-551574,conveyor belt spare parts - KilnTech Spares,727839.56,18,Maintenance & Spares
+INV-55FB3901,2026-07-08,BlueDart Freight,248352307139Z8,PO-197573,road transportation of cement bags - BlueDart Freight,686310.33,28,Logistics
+INV-69D35CAF,2026-08-01,LegalEdge Associates,245577353273Z7,PO-853789,tax consulting services - LegalEdge Associates,130244.5,5,Professional Services
+INV-D0D5080C,2026-08-15,MotorTech Industries,243200510647Z6,PO-397005,preventive maintenance service - MotorTech Industries,424405.62,18,Maintenance & Spares
+INV-9965C937,2026-06-30,Konkan Silica Traders,243479708607Z2,,silica sand delivery - Konkan Silica Traders,789299.19,18,Raw Material
+INV-99EE3C9D,2026-06-11,Gujarat Limestone Co,249776552803Z8,PO-496922,limestone supply - Gujarat Limestone Co,95366.58,5,Raw Material
+INV-74452912,2026-07-20,GreenGrid Energy,248259841263Z8,PO-308894,natural gas supply for kiln - GreenGrid Energy,609880.26,28,Utility
+INV-CBFDD15C,2026-07-10,Larsen Engg Works,246340003593Z7,PO-514991,kiln bearing replacement - Larsen Engg Works,419382.5,5,Maintenance & Spares
+INV-EE729383,2026-07-09,MotorTech Industries,246242086783Z1,,preventive maintenance service - MotorTech Industries,636438.87,5,Maintenance & Spares
+INV-3D3F48DA,2026-06-26,Konkan Silica Traders,241939042955Z9,PO-688508,fly ash procurement - Konkan Silica Traders,37939.28,5,Raw Material
